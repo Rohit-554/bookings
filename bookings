@@ -57,13 +57,10 @@ do{
 
 
 
-    cout<<"\n ---> 1.Set bus";
-  //  cout<<"\n ---> 2.Display a particular bus";
-    cout<<"\n ---> 3.Display all Buses";
-    //cout<<"\n ---> 4.Book Ticket";
-    cout<<"\n ---> 5.Delete Bus";
-    //cout<<"\n ---> 6.READ ME";
-    //cout<<"\n ---> 7.EXIT";
+    cout<<"\n ---> 1.Set Train";
+    cout<<"\n ---> 2.Display all Trains";
+    cout<<"\n ---> 3.Delete Trains";
+    cout<<"\n ---> 4.EXIT";
     cout<<endl;
     cout<<"\n ---> Enter your choice ";
     cin>>a;
@@ -82,7 +79,7 @@ do{
         fout.close();
         break;
       }
-    case 3:
+    case 2:
      {
 
         ifstream fin;
@@ -102,7 +99,7 @@ do{
 
 
      }
-    case 5:
+    case 3:
         {
             int chk=0;
             int id2;
@@ -145,5 +142,5 @@ do{
 
 
 
-}while(a!=7);
+}while(a!=4);
 }
