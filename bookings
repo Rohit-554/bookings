@@ -1,6 +1,4 @@
 //A program for bookings
-//help sir 
-//use in codebloka
 #include<iostream>
 
 #include<fstream>
